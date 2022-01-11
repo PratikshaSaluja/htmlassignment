@@ -1,0 +1,87 @@
+
+.pic {
+	background-color:lightblue;
+
+}
+
+.head {
+	background-color: whitesmoke;
+}
+
+.color {
+	background-color: whitesmoke;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text {
+	background-color: whitesmoke;
+}
+
+
+
+
+h2 {
+	text-align: right;
+}
+
+.bg {
+	background-image: url("https://cdn.britannica.com/w:400,h:300,c:crop/12/130512-004-AD0A7CA4/campus-Riverside-Ottawa-The-Hospital-Ont.jpg");
+	height: 100%;
+	
+	
+}
+
+.button {
+	background-color: lightblue;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.tex h3 {
+	display: inline-block;
+}
+.footer {
+    background-color: grey;
+
+}
+
+.h2{
+    text-align: right;
+}
+.img-thumbnail{
+    background-color: lightblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+
+
+}
+.services__list{
+	list-style: none;
+	margin: 0;
+	padding-left: 25px;
+	position: relative;
+	font-size: 0.9em;
+	
+	
+}
+.services__list:not(:last-child){
+	margin-bottom: 0.5em;
+}
+.services__list::before{
+	content:"\2714";
+	position: absolute;
+	left: 0;
+}
